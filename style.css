@@ -1,0 +1,156 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* NAVIGATION BAR SECTION */
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.nav p {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+.connexionbutton {
+    background-color: #2173e8;
+    padding: 10px 0 10px 0;
+    width: 121px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.connexionbutton:hover {
+    box-shadow: -2px 8px 9px 0px rgba(0,0,0,0.27);
+    filter: grayscale(20%);
+}
+
+/*GOOGLE SEARCH BAR SECTION*/
+
+.logo {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    padding-bottom: 20px;    
+}
+
+.loupe {
+    height: 20px;
+    width: 20px;
+}
+
+.input {
+    width: 40%;
+}
+
+.micro {
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 30px;
+    width: 500px;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 40px;
+}
+
+.input {
+    border: white;
+    background-color: transparent;
+}
+
+.buttons {
+    margin-left: 20px;
+
+}
+
+.buttons button {
+    margin-left: 40px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    color: #70757a;
+    font-size: 14px;
+}
+
+.pays {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.foot2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.foot2 p {
+    cursor: pointer;
+}
+
+.left p {
+    padding-right: 15px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.right p {
+    padding-right: 15px;
+}
+
+.right  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
